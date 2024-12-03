@@ -25,3 +25,233 @@ h3 {
   font-size: 6.5vw !important;
   line-height: 8vw !important;
 }
+
+.notion-text {
+  color: rgba(119, 119, 119, 0.9) !important;
+  margin-top: 0.5rem !important;
+  max-width: 60rem !important;
+  letter-spacing: 0.03vw !important;
+  font-size: 1.5vw !important;
+  font-weight: 400 !important;
+  line-height: 2.3vw !important;
+}
+
+.notion-root {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 30vh !important;
+}
+
+.notion-root.max-width {
+  max-width: 100% !important;
+  position: absolute !important;
+  top: 80vh !important;
+  background: white !important;
+}
+
+#page-index .notion-root.max-width {
+  top: 0 !important;
+}
+
+#page-index .notion-header {
+  display: none !important;
+}
+
+.notion-header {
+  mask-image: linear-gradient(rgba(253, 251, 245, 0), rgb(253, 251, 245)) !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: auto !important;
+  min-height: 60rem !important;
+  max-height: 60vh !important;
+  display: flex !important;
+  position: fixed !important;
+}
+
+.notion-header__cover.has-cover {
+  position: static !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.notion-header__title-wrapper {
+  display: none !important;
+}
+
+.notion-header__content.max-width {
+  top: 0 !important;
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+p.notion-text__content strong a {
+  color: white !important;
+  background: lightgreen;
+  padding: 0.8rem 1.6rem !important;
+  margin: 20px 0px !important;
+  border: none !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0.05rem !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  -webkit-transition: background 0.2s 0s ease-in-out !important;
+  text-decoration: none !important;
+}
+
+p.notion-text__content a {
+  color: black !important;
+  background: transparent;
+  padding: 0.8rem 1.6rem !important;
+  margin: 20px 0px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0.05rem !important;
+  border-radius: 50px !important;
+  border: 1px solid rgba(119, 119, 119, 0.5) !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  -webkit-transition: background 0.2s 0s ease-in-out !important;
+  text-decoration: none !important;
+}
+
+.notion-collection-gallery.medium {
+  scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
+  grid-template-columns: 33vw !important;
+  grid-auto-columns: 33vw !important;
+  grid-auto-flow: column !important;
+  overflow-x: auto !important;
+  grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
+  padding-left: clamp(0.5rem, 2vw, 2rem) !important;
+  padding-top: clamp(0.5rem, 3vw, 3rem) !important;
+  border-top: none !important;
+}
+
+.notion-collection-gallery.medium .notion-collection-card {
+  width: 100% !important;
+  height: 50vw !important;
+}
+
+.notion-collection-card__cover {
+  height: 100% !important;
+  position: relative !important;
+}
+
+.notion-collection-gallery.medium .notion-collection-card__content {
+  position: absolute !important;
+  bottom: 0 !important;
+  background: linear-gradient(to top, #000 0, rgba(0, 0, 0, 0) 100%);
+  width: 100% !important;
+  color: white !important;
+  padding-bottom: 2vw !important;
+}
+
+.notion-collection-card .notion-property__title {
+  overflow: visible !important;
+  font-size: 1.5vw !important;
+}
+
+.notion-collection-card__content .notion-property__text {
+  text-wrap: nowrap !important;
+  min-height: 24px !important;
+  word-spacing: 0.15px;
+}
+
+.notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
+  display: none !important;
+}
+
+.notion-collection-gallery.small {
+  padding-left: clamp(0.5rem, 2vw, 2rem) !important;
+  margin: auto !important;
+  border-top: none !important;
+  align-items: center !important;
+  display: flex !important;
+  margin-top: 1rem !important;
+}
+
+.notion-collection-gallery.small .notion-collection-card {
+  width: auto !important;
+  pointer-events: none !important;
+  box-shadow: none !important;
+}
+
+.notion-property.notion-property__select {
+  border: 1px solid rgba(119, 119, 119, 0.5) !important;
+  border-radius: 100vw !important;
+  padding: 0.5em 0.9em !important;
+  font-size: 1.2rem !important;
+}
+
+.notion-pill {
+  background: none !important;
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 50px) {
+  .notion-collection-gallery.medium {
+    grid-template-columns: 65vw !important;
+    grid-auto-columns: 65vw !important;
+  }
+  .notion-collection-gallery.medium .notion-collection-card {
+    height: 100vw !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .notion-text {
+    max-width: 45rem !important;
+    padding-left: 4vw !important;
+    padding-right: 4vw !important;
+    font-size: 2.5vw !important;
+    line-height: 3.25vw !important;
+  }
+  .notion-collection-gallery.medium {
+    grid-template-columns: 77vw !important;
+    grid-auto-columns: 77vw !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .notion-text {
+    font-size: 2vw !important;
+    line-height: 3vw !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .notion-text {
+    max-width: 60rem !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .notion-text {
+    max-width: 80rem !important;
+  }
+}
+@media screen and (max-width: 3840px) {
+  .notion-text {
+    max-width: 120rem !important;
+    padding-left: 2vw !important;
+    font-size: 2vw !important;
+    line-height: 3vw !important;
+  }
+  .notion-collection-gallery.medium {
+    scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
+    grid-template-columns: 33vw !important;
+    grid-auto-columns: 33vw !important;
+    grid-auto-flow: column !important;
+    overflow-x: auto !important;
+    grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
+    padding-left: clamp(0.5rem, 2vw, 2rem) !important;
+    padding-top: clamp(0.5rem, 3vw, 3rem) !important;
+    border-top: none !important;
+  }
+  .notion-collection-gallery.medium .notion-collection-card {
+    height: 50vw !important;
+  }
+}
