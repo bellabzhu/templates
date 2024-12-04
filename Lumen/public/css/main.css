@@ -263,6 +263,14 @@ p.notion-text__content a {
   .notion-text {
     max-width: 80rem !important;
   }
+  .notion-collection-gallery.medium {
+    grid-template-columns: 33vw !important;
+    grid-auto-columns: 33vw !important;
+  }
+  .notion-collection-gallery.medium .notion-collection-card {
+    max-height: 40vw !important;
+    max-width: 27vw !important;
+  }
 }
 @media screen and (max-width: 3840px) {
   .notion-text {
