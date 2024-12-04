@@ -3,27 +3,30 @@ h2,
 h3,
 .notion-text,
 .notion-text__content,
-.notion-semantic-string {
+.notion-semantic-string,
+.notion-column-list {
   padding-left: 2vw !important;
   padding-right: 1.5vw !important;
 }
 
 h1 {
   letter-spacing: -0.3vw !important;
-  font-size: 11.5vw !important;
-  line-height: 12vw !important;
+  font-size: 2.8vw !important;
+  line-height: 2.85vw !important;
 }
 
 h2 {
   letter-spacing: -0.3vw !important;
-  font-size: 8.5vw !important;
-  line-height: 10vw !important;
+  margin-bottom: 0.5vw;
+  font-size: 2.25vw;
+  line-height: 2.2525vw;
+  transition: line-height 0.4s, font-size 0.4s;
 }
 
 h3 {
   letter-spacing: -0.3vw !important;
-  font-size: 6.5vw !important;
-  line-height: 8vw !important;
+  font-size: 1.88vw !important;
+  line-height: 1.88vw !important;
 }
 
 .notion-text {
