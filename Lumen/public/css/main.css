@@ -36,15 +36,6 @@ h3 {
   line-height: 2.3vw !important;
 }
 
-.notion-root {
-  width: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  padding-bottom: 30vh !important;
-}
-
 .notion-root.max-width {
   max-width: 100% !important;
   position: absolute !important;
@@ -127,7 +118,6 @@ p.notion-text__content a {
   grid-template-columns: 33vw !important;
   grid-auto-columns: 33vw !important;
   grid-auto-flow: column !important;
-  overflow-x: auto !important;
   grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
   padding-left: clamp(0.5rem, 2vw, 2rem) !important;
   padding-top: clamp(0.5rem, 3vw, 3rem) !important;
@@ -247,7 +237,6 @@ p.notion-text__content a {
     grid-template-columns: 33vw !important;
     grid-auto-columns: 33vw !important;
     grid-auto-flow: column !important;
-    overflow-x: auto !important;
     grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
     padding-left: clamp(0.5rem, 2vw, 2rem) !important;
     padding-top: clamp(0.5rem, 3vw, 3rem) !important;
