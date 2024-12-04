@@ -132,9 +132,13 @@ p.notion-text__content a {
 
 //cards
 
+.notion-collection-card {
+  background: none !important;
+}
+
 .notion-collection-card .notion-property__title {
   overflow: visible !important;
-  font-size: 1.5vw !important;
+  font-size: var(--text-l) !important;
   line-height: 1.8 !important;
 }
 
@@ -142,7 +146,7 @@ p.notion-text__content a {
   text-wrap: wrap !important;
   min-height: 24px !important;
   word-spacing: 0.15px !important;
-  font-size: 1vw !important;
+  font-size: var(--text-s) !important;
   line-height: 1.3 !important;
 }
 
@@ -173,7 +177,7 @@ p.notion-text__content a {
   border: 1px solid var(--grey) !important;
   border-radius: 100vw !important;
   padding: 0.5em 0.9em !important;
-  font-size: 1.2rem !important;
+  font-size: var(--text-m) !important;
 }
 
 .notion-pill {
@@ -198,7 +202,7 @@ p.notion-text__content a {
     max-width: 45rem !important;
     padding-left: 4vw !important;
     padding-right: 4vw !important;
-    font-size: 2.5vw !important;
+    font-size: var(--heading-2) !important;
     line-height: 3.25vw !important;
   }
   .notion-collection-gallery.medium {
@@ -230,7 +234,7 @@ p.notion-text__content a {
   .notion-text {
     max-width: 70rem !important;
     padding-left: 2vw !important;
-    font-size: 1.5vw !important;
+    font-size: var(--text-l) !important;
     line-height: 1.8vw !important;
   }
   .notion-collection-gallery.medium {
