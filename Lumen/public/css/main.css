@@ -156,12 +156,14 @@ p.notion-text__content a {
 .notion-collection-card .notion-property__title {
   overflow: visible !important;
   font-size: 1.5vw !important;
+  line-height: 1.8 !important;
 }
 
 .notion-collection-card__content .notion-property__text {
-  text-wrap: nowrap !important;
+  text-wrap: wrap !important;
   min-height: 24px !important;
-  word-spacing: 0.15px;
+  word-spacing: 0.15px !important;
+  font-size: 1vw !important;
 }
 
 .notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
