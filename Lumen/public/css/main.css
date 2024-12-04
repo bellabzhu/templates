@@ -234,9 +234,6 @@ p.notion-text__content a {
     grid-template-columns: 65vw !important;
     grid-auto-columns: 65vw !important;
   }
-  .notion-collection-gallery.medium .notion-collection-card {
-    height: 100vw !important;
-  }
 }
 @media screen and (min-width: 768px) {
   .notion-text {
@@ -276,8 +273,8 @@ p.notion-text__content a {
   }
   .notion-collection-gallery.medium {
     scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
-    grid-template-columns: 33vw !important;
-    grid-auto-columns: 33vw !important;
+    grid-template-columns: 30vw !important;
+    grid-auto-columns: 30vw !important;
     grid-auto-flow: column !important;
     overflow-x: auto !important;
     grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
@@ -286,6 +283,7 @@ p.notion-text__content a {
     border-top: none !important;
   }
   .notion-collection-gallery.medium .notion-collection-card {
-    height: 50vw !important;
+    max-height: 40vw !important;
+    max-width: 28vw !important;
   }
 }
