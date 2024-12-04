@@ -273,8 +273,8 @@ p.notion-text__content a {
   }
   .notion-collection-gallery.medium {
     scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
-    grid-template-columns: 30vw !important;
-    grid-auto-columns: 30vw !important;
+    grid-template-columns: 20vw !important;
+    grid-auto-columns: 20vw !important;
     grid-auto-flow: column !important;
     overflow-x: auto !important;
     grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
@@ -283,7 +283,7 @@ p.notion-text__content a {
     border-top: none !important;
   }
   .notion-collection-gallery.medium .notion-collection-card {
-    max-height: 40vw !important;
-    max-width: 28vw !important;
+    max-height: 27vw !important;
+    max-width: 20vw !important;
   }
 }
