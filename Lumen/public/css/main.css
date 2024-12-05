@@ -31,19 +31,19 @@ h3,
 }
 
 h1 {
-  font-size: 2.8vw !important;
+  font-size: var(--heading-1) !important;
   line-height: 2.85vw !important;
 }
 
 h2 {
-  margin-bottom: 0.5vw;
-  font-size: 2.25vw;
-  line-height: 2.2525vw;
-  transition: line-height 0.4s, font-size 0.4s;
+  margin-bottom: 0.5vw !important;
+  font-size: var(--heading-2) !important;
+  line-height: 2.2525vw !important;
+  transition: line-height 0.4s, font-size 0.4s !important;
 }
 
 h3 {
-  font-size: 1.88vw !important;
+  font-size: var(--heading-3) !important;
   line-height: 1.88vw !important;
 }
 
@@ -51,7 +51,7 @@ h3 {
   color: var(--grey) !important;
   margin-top: 0.5rem !important;
   max-width: 60rem !important;
-  font-size: 1.2vw !important;
+  font-size: var(--text-m) !important;
   font-weight: 400 !important;
   line-height: 1.6vw !important;
 }
@@ -233,6 +233,28 @@ p.notion-text__content a {
   .notion-collection-gallery.medium {
     grid-template-columns: 65vw !important;
     grid-auto-columns: 65vw !important;
+  }
+  h1 {
+    font-size: var(--heading-2) !important;
+    line-height: 2.85vw !important;
+  }
+  h2 {
+    margin-bottom: 0.5vw !important;
+    font-size: var(--heading-3) !important;
+    line-height: 2.2525vw !important;
+    transition: line-height 0.4s, font-size 0.4s !important;
+  }
+  h3 {
+    font-size: var(--text-l) !important;
+    line-height: 1.88vw !important;
+  }
+  .notion-text {
+    color: var(--grey) !important;
+    margin-top: 0.5rem !important;
+    max-width: 60rem !important;
+    font-size: var(--text-m) !important;
+    font-weight: 400 !important;
+    line-height: 1.6vw !important;
   }
 }
 @media screen and (max-width: 768px) {
