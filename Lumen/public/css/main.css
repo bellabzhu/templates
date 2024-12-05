@@ -229,13 +229,13 @@ p.notion-text__content a {
   padding: 0 !important;
 }
 
-@media screen and (min-width: 50px) {
+@media screen and (max-width: 550px) {
   .notion-collection-gallery.medium {
     grid-template-columns: 65vw !important;
     grid-auto-columns: 65vw !important;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .notion-text {
     max-width: 45rem !important;
     padding-left: 4vw !important;
@@ -246,51 +246,5 @@ p.notion-text__content a {
   .notion-collection-gallery.medium {
     grid-template-columns: 77vw !important;
     grid-auto-columns: 77vw !important;
-  }
-}
-@media screen and (max-width: 992px) {
-  .notion-text {
-    font-size: 2vw !important;
-    line-height: 3vw !important;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .notion-text {
-    max-width: 60rem !important;
-  }
-}
-@media screen and (max-width: 1920px) {
-  .notion-text {
-    max-width: 80rem !important;
-  }
-  .notion-collection-gallery.medium {
-    grid-template-columns: 33vw !important;
-    grid-auto-columns: 33vw !important;
-  }
-  .notion-collection-gallery.medium .notion-collection-card {
-    max-height: 40vw !important;
-    max-width: 27vw !important;
-  }
-}
-@media screen and (max-width: 3840px) {
-  .notion-text {
-    padding-left: 2vw !important;
-    font-size: var(--text-l) !important;
-    line-height: 1.8vw !important;
-  }
-  .notion-collection-gallery.medium {
-    scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) !important;
-    grid-template-columns: 20vw !important;
-    grid-auto-columns: 20vw !important;
-    grid-auto-flow: column !important;
-    overflow-x: auto !important;
-    grid-gap: clamp(0.5rem, 2vw, 1.1rem) !important;
-    padding-left: clamp(0.5rem, 2vw, 2rem) !important;
-    padding-top: clamp(0.5rem, 3vw, 3rem) !important;
-    border-top: none !important;
-  }
-  .notion-collection-gallery.medium .notion-collection-card {
-    max-height: 27vw !important;
-    max-width: 20vw !important;
   }
 }
