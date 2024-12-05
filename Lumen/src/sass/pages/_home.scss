@@ -233,13 +233,6 @@ p.notion-text__content a {
 }
 
 @media screen and (max-width: 768px) {
-  .notion-text {
-    max-width: 45rem !important;
-    padding-left: 4vw !important;
-    padding-right: 4vw !important;
-    font-size: var(--heading-2) !important;
-    line-height: 3.25vw !important;
-  }
   .notion-collection-gallery.medium {
     grid-template-columns: 77vw !important;
     grid-auto-columns: 77vw !important;
