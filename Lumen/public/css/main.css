@@ -22,6 +22,9 @@
   --text-l: 1.5vw !important;
   --text-m: 1.2vw !important;
   --text-s: 1vw !important;
+  --space: 1rem !important;
+  --space-md: calc(var(--space) * 2) !important;
+  --content-max-width: 120ch !important;
 }
 
 h1 {
@@ -58,8 +61,8 @@ h3 {
   width: 100% !important;
   display: flex !important;
   flex-direction: column !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
   padding-bottom: 30vh !important;
 }
 
@@ -86,7 +89,6 @@ h3 {
   min-height: 60rem !important;
   max-height: 60vh !important;
   display: flex !important;
-  position: fixed !important;
 }
 
 .notion-header__cover.has-cover {
@@ -182,7 +184,6 @@ p.notion-text__content a {
 
 .notion-collection-card .notion-property__title {
   overflow: visible !important;
-  font-size: var(--text-l) !important;
   line-height: 1.8 !important;
 }
 
@@ -216,7 +217,7 @@ p.notion-text__content a {
 .notion-property.notion-property__select {
   border: 1px solid var(--grey) !important;
   border-radius: 100vw !important;
-  padding: 0.5em 0.9em !important;
+  padding: 0 !important;
   font-size: var(--text-m) !important;
 }
 

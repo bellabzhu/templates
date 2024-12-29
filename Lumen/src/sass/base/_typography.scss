@@ -10,6 +10,9 @@
   --text-l: 1.5vw !important;
   --text-m: 1.2vw !important;
   --text-s: 1vw !important;
+  --space: 1rem !important;
+  --space-md: calc(var(--space) * 2) !important;
+  --content-max-width: 120ch !important;
 }
 
 h1 {
