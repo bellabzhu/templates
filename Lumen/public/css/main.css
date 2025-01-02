@@ -48,9 +48,7 @@ h3 {
   color: var(--grey) !important;
   margin-top: 0.5rem !important;
   max-width: 60rem !important;
-  font-size: var(--text-m) !important;
   font-weight: 400 !important;
-  line-height: 1.6vw !important;
 }
 
 .super-content {
