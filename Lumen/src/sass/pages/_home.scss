@@ -11,7 +11,6 @@
   padding-bottom: 30vh !important;
 }
 
-
 //header
 
 #page-index .notion-root.max-width {
@@ -23,10 +22,10 @@
 }
 
 .notion-header {
-  mask-image: linear-gradient(
+  /*mask-image: linear-gradient(
     rgba(253, 251, 245, 0),
     rgb(253, 251, 245)
-  ) !important;
+  ) !important;*/
   flex-direction: column !important;
   align-items: center !important;
   height: auto !important;

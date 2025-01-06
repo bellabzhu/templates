@@ -73,7 +73,10 @@ h3 {
 }
 
 .notion-header {
-  mask-image: linear-gradient(rgba(253, 251, 245, 0), rgb(253, 251, 245)) !important;
+  /*mask-image: linear-gradient(
+    rgba(253, 251, 245, 0),
+    rgb(253, 251, 245)
+  ) !important;*/
   flex-direction: column !important;
   align-items: center !important;
   height: auto !important;
