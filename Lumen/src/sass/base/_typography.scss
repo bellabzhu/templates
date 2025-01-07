@@ -15,20 +15,15 @@
   --content-max-width: 120ch !important;
 }
 
-h1 {
-  font-size: var(--heading-1) !important;
-  line-height: 2.85vw !important;
+h1.notion-heading {
+  font-size: var(--heading1-size);
 }
 
-h2 {
-  margin-bottom: 0.5vw !important;
-  font-size: var(--heading-2) !important;
-  line-height: 2.2525vw !important;
-  transition: line-height 0.4s, font-size 0.4s !important;
+h2.notion-heading {
+  font-size: var(--heading2-size);
 }
-h3 {
-  font-size: var(--heading-3) !important;
-  line-height: 1.88vw !important;
+h3.notion-heading {
+  font-size: var(--heading3-size);
 }
 
 .notion-text {
