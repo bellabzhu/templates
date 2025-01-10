@@ -167,7 +167,6 @@ p.notion-text__content a {
 
 .notion-collection-card .notion-property__title {
   overflow: visible !important;
-  line-height: 1.8 !important;
 }
 
 .notion-collection-card__content .notion-property__text {
