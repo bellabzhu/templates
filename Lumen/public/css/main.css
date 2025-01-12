@@ -46,10 +46,6 @@ h3.notion-heading {
   font-weight: 400 !important;
 }
 
-.super-content {
-  background: var(--white) !important;
-}
-
 .notion-root {
   width: 100% !important;
   display: flex !important;
