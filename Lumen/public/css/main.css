@@ -188,7 +188,6 @@ p.notion-text__content a {
 
 .notion-collection-gallery.small .notion-collection-card {
   width: auto !important;
-  pointer-events: none !important;
   box-shadow: none !important;
 }
 
