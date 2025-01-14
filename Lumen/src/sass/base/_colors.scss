@@ -6,10 +6,11 @@
 
   --lime-green: hsl(120deg 73.44% 74.9%) !important;
   --dark-green: green !important;
-  --grey: rgba(119, 119, 119, 0.9) !important;
-  --white: rgba(252, 251, 251, 0.9) !important;
+  --grey: rgba(119, 119, 119, 1) !important;
+  --white: rgba(252, 251, 251, 1) !important;
   --border-color: rgba(25, 26, 25, 1) !important;
   --hover-bg: rgba(25, 26, 25, 1) !important;
+  --hover-color: rgba(252, 251, 251, 1) !important;
   --text: rgba(25, 26, 25, 1) !important;
 }
 
@@ -25,5 +26,6 @@
   --white: rgba(252, 251, 251, 1) !important;
   --text: rgba(252, 251, 251, 1) !important;
   --hover-bg: rgba(252, 251, 251, 1) !important;
+  --hover-color: rgba(25, 26, 25, 1) !important;
   --border-color: rgba(119, 119, 119, 1) !important;
 }
