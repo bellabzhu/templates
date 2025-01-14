@@ -7,6 +7,7 @@
   --dark-green: green !important;
   --grey: rgba(119, 119, 119, 0.9) !important;
   --white: rgba(252, 251, 251, 0.9) !important;
+  --border-color: rgba(253, 251, 245, 0) !important;
   --text: rgba(253, 251, 245, 0) !important;
 }
 
@@ -20,6 +21,7 @@
   --grey: rgba(119, 119, 119, 0.9) !important;
   --white: rgba(252, 251, 251, 0.9) !important;
   --text: rgba(252, 251, 251, 0.9) !important;
+  --border-color: rgba(119, 119, 119, 0.9) !important;
 }
 
 :root {
