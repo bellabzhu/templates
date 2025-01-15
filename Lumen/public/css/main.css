@@ -128,12 +128,12 @@ p.notion-text__content strong a:hover {
 }
 
 p.notion-text__content a {
-  color: var(--text) !important;
+  /*color: var(--text) !important;
   text-transform: capitalize !important;
   letter-spacing: 0.05rem !important;
   opacity: 1 !important;
   font-weight: 500 !important;
-  text-decoration: none !important;
+  text-decoration: none !important;*/
   transition: background 0.2s ease-in-out !important;
   -webkit-transition: background 0.2s ease-in-out !important;
 }
