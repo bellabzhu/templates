@@ -94,12 +94,6 @@ h3.notion-heading {
   display: flex !important;*/
 }
 
-.notion-header__cover.has-cover {
-  position: static !important;
-  height: auto !important;
-  width: 100% !important;
-}
-
 .notion-header__title-wrapper {
   display: none !important;
 }
