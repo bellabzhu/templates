@@ -11,6 +11,7 @@
   --hover-bg: rgba(25, 26, 25, 1) !important;
   --hover-color: rgba(252, 251, 251, 1) !important;
   --text: rgba(25, 26, 25, 1) !important;
+  --color-bg-green: hsl(var(--green-h), var(--green-s), 90%) !important;
   --color-bg-orange: hsl(var(--orange-h), var(--orange-s), 90%) !important;
 }
 
@@ -27,6 +28,7 @@
   --hover-bg: rgba(252, 251, 251, 1) !important;
   --hover-color: rgba(25, 26, 25, 1) !important;
   --border-color: rgba(119, 119, 119, 1) !important;
+  --color-bg-green: hsl(146deg 44.83% 78.11%) !important;
   --color-bg-orange: rgb(254, 206, 198) !important;
 }
 
