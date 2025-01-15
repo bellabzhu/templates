@@ -106,9 +106,9 @@ h3.notion-heading {
 
 .notion-header__content.max-width {
   top: 0 !important;
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  max-width: --layout-max-width;
+  /*padding-left: 0 !important;
+  padding-right: 0 !important;*/
 }
 
 p.notion-text__content strong a {
