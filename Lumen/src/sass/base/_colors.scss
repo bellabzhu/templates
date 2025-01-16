@@ -12,10 +12,19 @@
   --hover-bg: rgba(25, 26, 25, 1) !important;
   --hover-color: rgba(252, 251, 251, 1) !important;
   --text: rgba(25, 26, 25, 1) !important;
-  --toggle-summary: #37352F !important;
+  --toggle-summary: #37352f !important;
   --color-bg-gray: hsl(var(--gray-h), var(--gray-s), 90%) !important;
   --color-bg-green: hsl(var(--green-h), var(--green-s), 90%) !important;
   --color-bg-orange: hsl(var(--orange-h), var(--orange-s), 90%) !important;
+  --color-bg-yellow: hsl(
+    var(--yellow-h),
+    calc(var(--yellow-s) + 90%),
+    90%
+  ) !important;
+  --color-bg-brown: hsl(var(--brown-h), var(--brown-s), 90%) !important;
+  --color-bg-blue: hsl(var(--blue-h), var(--blue-s), 90%) !important;
+  --color-bg-purple: hsl(var(--purple-h), var(--purple-s), 90%) !important;
+  --color-bg-pink: hsl(var(--pink-h), var(--pink-s), 90%) !important;
 }
 
 .theme-dark body {
@@ -35,5 +44,10 @@
   --toggle-summary: lightgrey !important;
   --color-bg-gray: hsl(108.91deg 5.64% 90.94%) !important;
   --color-bg-green: hsl(146deg 44.83% 78.11%) !important;
-  --color-bg-orange: rgb(254, 206, 198) !important;
+  --color-bg-orange: hsl(39.17deg 88.44% 71.46%) !important;
+  --color-bg-yellow: hsl(45.32deg 100% 80.44%) !important;
+  --color-bg-brown: hsl(0deg 13.37% 76.67%) !important;
+  --color-bg-blue: hsl(203.27deg 100% 90.18%) !important;
+  --color-bg-purple: hsl(300deg 43.18% 82.75%) !important;
+  --color-bg-pink: hsl(349.52deg 65.13% 93.88%) !important;
 }
