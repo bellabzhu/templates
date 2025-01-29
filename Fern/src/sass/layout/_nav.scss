@@ -1,0 +1,14 @@
+.super-navbar {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  height: 100% !important;
+
+  .super-navbar__content .super-navbar__logo{
+    padding: 0 !important;
+  }
+}
+
+.super-navbar .super-navbar__content
+.super-navbar__logo-image img{
+  height: auto !important;
+}
