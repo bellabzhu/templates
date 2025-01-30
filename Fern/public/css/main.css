@@ -571,10 +571,6 @@ a.notion-page .notion-page__title.notion-semantic-string {
   margin-right: 5px !important;
 }
 
-.notion-pill {
-  padding: 0 !important;
-}
-
 .notion-collection-card {
   background: none !important;
   flex-direction: column !important;
