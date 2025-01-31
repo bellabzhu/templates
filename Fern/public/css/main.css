@@ -590,6 +590,10 @@ a.notion-page .notion-page__title.notion-semantic-string {
   position: relative !important;
 }
 
+.notion-collection-gallery.small, .notion-collection-card__content {
+  backdrop-filter: none !important;
+}
+
 .notion-collection-card__content {
   display: flex;
   justify-content: flex-end;
