@@ -250,44 +250,44 @@ a.notion-page {
 //pill-colors
 
 .notion-pill {
-  color: #37352f;
+  color: #37352f !important;
 }
 
 .pill-green {
-  background: var(--color-bg-green);
+  background: var(--color-bg-green) !important;
 }
 .pill-blue {
-  background: var(--color-bg-blue);
+  background: var(--color-bg-blue) !important;
 }
 .pill-orange {
-  background: var(--color-bg-orange);
+  background: var(--color-bg-orange) !important;
 }
 
 .pill-yellow {
-  background: var(--color-bg-yellow);
+  background: var(--color-bg-yellow) !important;
 }
 .pill-default {
-  background: var(--color-bg-gray);
+  background: var(--color-bg-gray) !important;
 }
 
 .pill-gray {
-  background: hsl(0deg 0% 85.59%);
+  background: hsl(0deg 0% 85.59%) !important;
 }
 
 .pill-purple {
-  background: var(--color-bg-purple);
+  background: var(--color-bg-purple) !important;
 }
 
 .pill-pink {
-  background: var(--color-bg-pink);
+  background: var(--color-bg-pink) !important;
 }
 
 .pill-brown {
-  background: var(--color-bg-brown);
+  background: var(--color-bg-brown) !important;
 }
 
 .pill-red {
-  background: var(--color-bg-red);
+  background: var(--color-bg-red) !important;
 }
 
 //callout
