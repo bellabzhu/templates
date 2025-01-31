@@ -501,8 +501,10 @@ a.notion-page {
   box-shadow: none !important;
   border: 1px solid var(--color-border-default) !important;
   position: relative !important;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
 }
@@ -684,11 +686,44 @@ html.theme-light pre[class*="language-"] {
   .notion-collection-gallery.medium .notion-collection-card {
     aspect-ratio: 1 / 1 !important;
   }
+
+  .notion-collection-gallery.large .notion-collection-card:nth-child(1),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(2),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 3),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 6),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 7) {
+    grid-column: span 8 !important;
+  }
+
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 4),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 5),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 6),
+  .notion-collection-gallery.large .notion-collection-card:nth-child(5n + 7) {
+    grid-column: span 6 !important;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
   .notion-collection-gallery.medium .notion-collection-card {
     aspect-ratio: 1 / 1.4 !important;
+  }
+
+  .notion-collection-gallery.large {
+    .notion-collection-card:nth-child(1),
+    .notion-collection-card:nth-child(2),
+    .notion-collection-card:nth-child(5n + 6),
+    .notion-collection-card:nth-child(5n + 7) {
+      grid-column: span 12 !important;
+    }
+  }
+
+  .notion-collection-gallery.large {
+    .notion-collection-card:nth-child(5n + 3),
+    .notion-collection-card:nth-child(5n + 4),
+    .notion-collection-card:nth-child(5n + 5),
+    .notion-collection-card:nth-child(5n + 8) {
+      grid-column: span 8 !important;
+    }
   }
 }
 
