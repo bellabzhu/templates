@@ -50,14 +50,6 @@ html {
   margin-top: 0;
 }
 
-.super-navbar .super-navbar__content {
-  min-height: 120px !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  display: flex !important;
-  padding: 0 !important;
-}
-
 h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
   width: 70%;
   margin-bottom: 1rem;

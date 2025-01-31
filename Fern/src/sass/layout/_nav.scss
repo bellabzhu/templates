@@ -3,12 +3,19 @@
   padding-right: 6rem;
   height: 100% !important;
 
-  .super-navbar__content .super-navbar__logo{
+  .super-navbar__content .super-navbar__logo {
     padding: 0 !important;
   }
 }
 
-.super-navbar .super-navbar__content
-.super-navbar__logo-image img{
+.super-navbar .super-navbar__content {
+  min-height: 150px !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  display: flex !important;
+  padding: 0 !important;
+}
+
+.super-navbar .super-navbar__content .super-navbar__logo-image img {
   height: auto !important;
 }
