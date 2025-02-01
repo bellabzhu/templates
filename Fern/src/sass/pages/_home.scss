@@ -472,10 +472,12 @@ a.notion-page {
   margin-top: 1rem !important;
 }*/
 
+.notion-collection-card__property {
+  flex-wrap: wrap !important;
+}
+
 .notion-property.notion-property__select {
-  border-radius: 100vw !important;
   padding: 0 !important;
-  font-size: var(--text-m) !important;
   border: none !important;
   flex-grow: 0 !important; /* Prevent stretching */
   flex-shrink: 0 !important; /* Prevent shrinking*/
