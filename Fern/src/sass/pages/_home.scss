@@ -22,6 +22,10 @@ html {
 
 //header
 
+.notion-header__cover.no-cover {
+  display: none;
+}
+
 #page-index .notion-root.max-width {
   top: 0 !important;
 }
