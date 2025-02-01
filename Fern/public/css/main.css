@@ -162,7 +162,6 @@ p.notion-text__content strong a {
   border-radius: 50px !important;
   opacity: 1 !important;
   font-weight: 500 !important;
-  display: inline-flex !important;
   justify-content: center !important;
   text-decoration: none !important;
   transition: background 0.2s ease-in-out !important;
@@ -834,6 +833,9 @@ html.theme-light pre[class*=language-] {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  super-navbar .super-navbar__content {
+    min-height: 90px !important;
+  }
   .notion-root {
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -921,6 +923,7 @@ html.theme-light pre[class*=language-] {
     line-height: 5.5vw !important;
   }
   .notion-collection-card__content .notion-property__text {
-    font-size: var(--text-mob-m) !important;
+    /*font-size: var(--text-mob-m) !important;*/
+    color: black !important;
   }
 }
