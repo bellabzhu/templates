@@ -676,6 +676,11 @@ html.theme-light pre[class*="language-"] {
   color: grey !important;
 }
 
+.notion-code {
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--collection-card-border-radii);
+}
+
 //Mobile
 
 @media only screen and (max-width: 3500px) {
