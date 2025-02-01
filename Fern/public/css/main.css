@@ -614,6 +614,7 @@ a.notion-page .notion-page__title.notion-semantic-string {
 
 .notion-collection-card__content .notion-property__text {
   text-wrap: wrap !important;
+  color: rgb(25, 26, 25) !important;
   min-height: 24px !important;
   word-spacing: 0.15px !important;
   font-size: 1rem !important;
@@ -924,8 +925,7 @@ html.theme-light pre[class*=language-] {
     font-size: var(--text-mob-l) !important;
     line-height: 5.5vw !important;
   }*/
-  .notion-collection-card__content .notion-property__text {
-    /*font-size: var(--text-mob-m) !important;*/
-    color: black !important;
-  }
+  /*.notion-collection-card__content .notion-property__text {
+    font-size: var(--text-mob-m) !important;
+  }*/
 }
