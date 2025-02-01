@@ -918,10 +918,10 @@ html.theme-light pre[class*=language-] {
   .notion-collection-gallery.medium .notion-collection-card__content {
     padding-bottom: 5vw !important;
   }
-  .notion-collection-card .notion-property__title {
+  /*.notion-collection-card .notion-property__title {
     font-size: var(--text-mob-l) !important;
     line-height: 5.5vw !important;
-  }
+  }*/
   .notion-collection-card__content .notion-property__text {
     /*font-size: var(--text-mob-m) !important;*/
     color: black !important;
