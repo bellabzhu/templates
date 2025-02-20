@@ -151,23 +151,8 @@ h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
   margin-bottom: 1rem;
 }
 
-p.notion-text__content strong a {
-  color: var(--white) !important;
-  background: var(--lime-green) !important;
-  padding: 0.8rem 1.6rem !important;
-  border: none !important;
-  text-transform: capitalize !important;
-  letter-spacing: 0.05rem !important;
-  border-radius: 50px !important;
-  opacity: 1 !important;
-  font-weight: 500 !important;
-  justify-content: center !important;
-  text-decoration: none !important;
-  transition: background 0.2s ease-in-out !important;
-  -webkit-transition: background 0.2s ease-in-out !important;
-}
-
 .notion-button__content {
+  color: var(--white) !important;
   padding: 0.8rem 1.6rem !important;
   border: none !important;
   text-transform: capitalize !important;
@@ -180,13 +165,49 @@ p.notion-text__content strong a {
   -webkit-transition: background 0.2s ease-in-out !important;
 }
 
-.bg-green-light {
-  background: var(--lime-green) !important;
+.notion-button__content:hover {
+  opacity: 0.8 !important;
+  transition: 0.2s ease-in-out !important;
 }
 
-p.notion-text__content strong a:hover {
-  background: var(--dark-green) !important;
-  transition: 0.2s ease-in-out !important;
+.notion-button__content.bg-green-light {
+  background: var(--lime-green);
+}
+
+.notion-button__content.bg-yellow-light {
+  background: #ffc158 !important;
+}
+
+.notion-button__content.bg-yellow-light {
+  background: #ffc158 !important;
+}
+
+.notion-button__content.bg-orange-light {
+  background: #ff9858 !important;
+}
+
+.notion-button__content.bg-blue-light {
+  background: #5568ff !important;
+}
+
+.notion-button__content.bg-purple-light {
+  background: #d9c6fb !important;
+}
+
+.notion-button__content.bg-red-light {
+  background: #fe6e4e !important;
+}
+
+.notion-button__content.bg-pink-light {
+  background: #fecdc5 !important;
+}
+
+.notion-button__content.bg-brown-light {
+  background: #9e756e !important;
+}
+
+.notion-button__content.bg-gray-light {
+  background: #a19c9b !important;
 }
 
 p.notion-text__content a {
