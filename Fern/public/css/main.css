@@ -170,8 +170,13 @@ h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
   transition: 0.2s ease-in-out !important;
 }
 
+.notion-button__content.color-default {
+  color: var(--text) !important;
+  border: 1px solid var(--color-border-default) !important;
+}
+
 .notion-button__content.bg-green-light {
-  background: var(--lime-green);
+  background: var(--lime-green) !important;
 }
 
 .notion-button__content.bg-yellow-light {
