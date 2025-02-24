@@ -773,8 +773,13 @@ html.theme-light pre[class*=language-] {
 }
 
 .notion-code {
+  background-color: var(--color-code-bg);
   border: 1px solid var(--color-border-default);
   border-radius: var(--collection-card-border-radii);
+}
+
+.notion-code pre {
+  background-color: transparent !important;
 }
 
 @media only screen and (max-width: 3500px) {
