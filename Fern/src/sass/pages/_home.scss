@@ -858,7 +858,12 @@ html.theme-light pre[class*="language-"] {
     ) {
     width: 100%;
     margin-bottom: 1rem;
-    font-size: var(--heading1-size);
+    font-size: var(--heading1-size) !important;
+  }
+  h1.notion-heading {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: var(--heading1-size) !important;
   }
 }
 

@@ -879,7 +879,12 @@ html.theme-light pre[class*=language-] {
   h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
     width: 100%;
     margin-bottom: 1rem;
-    font-size: var(--heading1-size);
+    font-size: var(--heading1-size) !important;
+  }
+  h1.notion-heading {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: var(--heading1-size) !important;
   }
 }
 @media screen and (max-width: 768px) {
