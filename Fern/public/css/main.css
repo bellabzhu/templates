@@ -53,7 +53,7 @@
 }
 
 h1.notion-heading {
-  font-size: var(--heading1-size);
+  font-size: 3vw !important;
 }
 
 h2.notion-heading {
