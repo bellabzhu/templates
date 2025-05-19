@@ -147,7 +147,7 @@ html {
 }
 
 h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
-  width: 70%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -827,7 +827,7 @@ html.theme-light pre[class*=language-] {
 
 @media only screen and (max-width: 3500px) {
   h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
-    width: 60%;
+    width: 100%;
     font-size: 3vw;
   }
   .notion-collection-gallery.medium .notion-collection-card {
