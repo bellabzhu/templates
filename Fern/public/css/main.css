@@ -151,7 +151,7 @@ h1:first-of-type:not(.notion-column h1):not(.notion-header__title-wrapper h1) {
   margin-bottom: 1rem;
 }
 
-.notion-column {
+.notion-column:has(.notion-button__content) {
   width: fit-content !important;
 }
 
