@@ -991,7 +991,7 @@ html.theme-light pre[class*=language-] {
     width: auto !important;
     gap: 20px !important;
   }
-  .notion-column.notion-image {
+  .notion-column:has(.notion-image) {
     width: 20% !important;
   }
   .notion-header__cover.has-cover {
